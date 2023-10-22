@@ -1,0 +1,29 @@
+Error 403 Forbidden: To solve it, you need to go to blaster.py and search for the line that contains 'headers' and then put yours.
+Error 404/no advanced info found: It means that either you need to complete the captcha (because I don't have a captcha bypasser, which will be added in another version of blaster); just go to thatsthem.com and complete the captcha. Or it can mean that you didn't enter the phone number like this: 111 111 1111. You need to input the number like this 111-111-1111.
+
+if u have this problem it mean that u didn't put the headers correctly:
+Traceback (most recent call last):
+  File "C:\Users\USERNAME\Desktop\Blaster\blaster.py", line 48, in <module>
+    thatsthem_response = requests.get(thatsthem_url, headers=thatsthem_headers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USERNAME\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USERNAME\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USERNAME\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 516, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USERNAME\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 449, in prepare_request
+    p.prepare(
+  File "C:\Users\USERNAME\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\models.py", line 315, in prepare
+    self.prepare_headers(headers)
+  File "C:\Users\USERNAME\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\models.py", line 447, in prepare_headers
+    for header in headers.items():
+                  ^^^^^^^^^^^^^
+AttributeError: 'set' object has no attribute 'items'
+
+
+
+If the problems persist, contact 111terriblefamous on my Discord server: https://discord.gg/gT8chs4bPA
