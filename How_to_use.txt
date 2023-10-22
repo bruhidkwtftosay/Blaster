@@ -1,0 +1,7 @@
+u need to open cmd
+- cd Blaster
+- python blaster.py
+- input the country code (example: +1)
+- input the number without the country code (example: 1111111111)
+- input the country code with dashes (example: 111-111-1111)
+- Press enter and wait 2-3 seconds for results!
